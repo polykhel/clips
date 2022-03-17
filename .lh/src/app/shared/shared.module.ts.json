@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/app/shared/shared.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1647444957285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647445436432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,17 +11,18 @@\n   declarations: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent\n+    InputComponent,\n+    \n   ],\n   imports: [\n     CommonModule\n   ],\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    I\n+    InputComponent\n   ]\n })\n export class SharedModule { }\n"
+                },
+                {
+                    "date": 1647445443778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,21 +3,22 @@\n import { ModalComponent } from './modal/modal.component';\n import { TabsContainerComponent } from './tabs-container/tabs-container.component';\n import { TabComponent } from './tab/tab.component';\n import { InputComponent } from './input/input.component';\n+import { ReactiveFormsModule } from '@angular/forms';\n \n \n \n @NgModule({\n   declarations: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent,\n-    \n+    InputComponent\n   ],\n   imports: [\n-    CommonModule\n+    CommonModule,\n+    ReactiveFormsModule\n   ],\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n"
+                },
+                {
+                    "date": 1647446237594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n     InputComponent\n   ],\n   imports: [\n     CommonModule,\n-    ReactiveFormsModule\n+    ReactiveFormsModule,\n+    Ngx\n   ],\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n"
+                },
+                {
+                    "date": 1647446251516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n import { TabsContainerComponent } from './tabs-container/tabs-container.component';\n import { TabComponent } from './tab/tab.component';\n import { InputComponent } from './input/input.component';\n import { ReactiveFormsModule } from '@angular/forms';\n+import { NgxMaskModule } from 'ngx-mask';\n \n \n \n @NgModule({\n@@ -17,14 +18,15 @@\n   ],\n   imports: [\n     CommonModule,\n     ReactiveFormsModule,\n-    Ngx\n+    NgxMaskModule.forRoot()\n   ],\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent\n+    InputComponent,\n+    N\n   ]\n })\n export class SharedModule { }\n"
+                },
+                {
+                    "date": 1647446281591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent,\n-    N\n+    InputComponent\n   ]\n })\n export class SharedModule { }\n"
+                },
+                {
+                    "date": 1647483082845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,19 @@\n import { TabComponent } from './tab/tab.component';\n import { InputComponent } from './input/input.component';\n import { ReactiveFormsModule } from '@angular/forms';\n import { NgxMaskModule } from 'ngx-mask';\n+import { AlertComponent } from './alert/alert.component';\n \n \n \n @NgModule({\n   declarations: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent\n+    InputComponent,\n+    AlertComponent\n   ],\n   imports: [\n     CommonModule,\n     ReactiveFormsModule,\n@@ -24,8 +26,8 @@\n   exports: [\n     ModalComponent,\n     TabsContainerComponent,\n     TabComponent,\n-    InputComponent\n+    InputComponent,\n   ]\n })\n export class SharedModule { }\n"
+                }
+            ],
+            "date": 1647444957285,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { ModalComponent } from './modal/modal.component';\nimport { TabsContainerComponent } from './tabs-container/tabs-container.component';\nimport { TabComponent } from './tab/tab.component';\nimport { InputComponent } from './input/input.component';\n\n\n\n@NgModule({\n  declarations: [\n    ModalComponent,\n    TabsContainerComponent,\n    TabComponent,\n    InputComponent\n  ],\n  imports: [\n    CommonModule\n  ],\n  exports: [\n    ModalComponent,\n    TabsContainerComponent,\n    TabComponent,\n    I\n  ]\n})\nexport class SharedModule { }\n"
+        }
+    ]
+}

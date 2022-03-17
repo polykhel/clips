@@ -1,0 +1,26 @@
+{
+    "sourceFile": "tailwind.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1647482836108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647482844380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     extend: {},\n   },\n   variants: {\n     extend: {\n-      \n+      opacity: ['disabled']\n     }\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1647482855663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n     extend: {},\n   },\n   variants: {\n     extend: {\n-      opacity: ['disabled']\n+      opacity: ['disabled'],\n+      background: ['disabled']\n     }\n   },\n   plugins: [],\n }\n"
+                }
+            ],
+            "date": 1647482836108,
+            "name": "Commit-0",
+            "content": "module.exports = {\n  darkMode: 'media',\n  content: [\n    './src/**/*.{html,ts}'\n  ],\n  theme: {\n    fontFamily: {\n      'sans': ['Roboto']\n    },\n    extend: {},\n  },\n  variants: {\n    extend: {\n      \n    }\n  },\n  plugins: [],\n}\n"
+        }
+    ]
+}

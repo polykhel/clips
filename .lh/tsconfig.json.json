@@ -1,0 +1,18 @@
+{
+    "sourceFile": "tsconfig.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1647444194002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1647444194002,
+            "name": "Commit-0",
+            "content": "/* To learn more about this file see: https://angular.io/config/tsconfig. */\n{\n  \"compileOnSave\": false,\n  \"compilerOptions\": {\n    \"baseUrl\": \"./\",\n    \"outDir\": \"./dist/out-tsc\",\n    \"forceConsistentCasingInFileNames\": true,\n    \"strict\": true,\n    \"noImplicitOverride\": true,\n    \"noPropertyAccessFromIndexSignature\": fa,\n    \"noImplicitReturns\": true,\n    \"noFallthroughCasesInSwitch\": true,\n    \"sourceMap\": true,\n    \"declaration\": false,\n    \"downlevelIteration\": true,\n    \"experimentalDecorators\": true,\n    \"moduleResolution\": \"node\",\n    \"importHelpers\": true,\n    \"target\": \"es2017\",\n    \"module\": \"es2020\",\n    \"lib\": [\n      \"es2020\",\n      \"dom\"\n    ]\n  },\n  \"angularCompilerOptions\": {\n    \"enableI18nLegacyMessageIdFormat\": false,\n    \"strictInjectionParameters\": true,\n    \"strictInputAccessModifiers\": true,\n    \"strictTemplates\": true\n  }\n}\n"
+        }
+    ]
+}
