@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/user/user.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1647483557718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1647483557718,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { AuthModalComponent } from './auth-modal/auth-modal.component';\nimport { SharedModule } from \"../shared/shared.module\";\nimport { RegisterComponent } from './register/register.component';\nimport { LoginComponent } from './login/login.component';\nimport { FormsModule, ReactiveFormsModule } from \"@angular/forms\";\n\n@NgModule({\n  declarations: [\n    AuthModalComponent,\n    RegisterComponent,\n    LoginComponent\n  ],\n  exports: [\n    AuthModalComponent\n  ],\n  imports: [\n    CommonModule,\n    SharedModule,\n    ReactiveFormsModule,\n    FormsModule\n  ]\n})\nexport class UserModule {\n}\n"
+        }
+    ]
+}
