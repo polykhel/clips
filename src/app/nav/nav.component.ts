@@ -1,21 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { ModalService } from "../services/modal.service";
+import { Component } from '@angular/core';
+import { ModalService } from '../services/modal.service';
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss']
+    selector: 'app-nav',
+    templateUrl: './nav.component.html',
+    styleUrls: ['./nav.component.scss'],
 })
-export class NavComponent implements OnInit {
+export class NavComponent {
+    constructor(public modal: ModalService) {}
 
-  constructor(public modal: ModalService) {
-  }
-
-  ngOnInit(): void {
-  }
-
-  openModal($event: MouseEvent) {
-    $event.preventDefault()
-    this.modal.toggleModal('auth')
-  }
+    openModal($event: MouseEvent) {
+        $event.preventDefault();
+        this.modal.toggleModal('auth');
+    }
 }
