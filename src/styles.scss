@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  cursor: pointer;
+}
+
 body {
   background-color: #161d31;
 }
